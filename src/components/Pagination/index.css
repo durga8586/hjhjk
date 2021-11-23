@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-number {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+.left-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  height: 32px;
+  width: 32px;
+}

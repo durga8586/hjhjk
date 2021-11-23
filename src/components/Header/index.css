@@ -1,0 +1,136 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8fafc;
+  width: 100vw;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+@media screen and (max-width: 767px) {
+  .nav-content {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.logo-site-container {
+  display: flex;
+  align-items: center;
+}
+.website-logo4 {
+  width: 53px;
+  height: 43px;
+}
+
+@media screen and (max-width: 767px) {
+  .website-logo4 {
+    width: 35px;
+    height: 28px;
+  }
+}
+
+.website-name {
+  color: #f7931e;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 15px;
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  .website-name {
+    font-size: 12px;
+  }
+}
+
+.route-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .route-container {
+    display: none;
+  }
+}
+
+.nav-btn-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.home-nav {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.355556px;
+  color: #334155;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.logout-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  border-width: 0px;
+  width: 73px;
+  height: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  width: 90%;
+}
+.popup-content {
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  width: 100vw;
+  margin: 0px;
+}
+
+.hum-burger-menu {
+  position: relative !important;
+}
+
+@media screen and (min-width: 768px) {
+  .hum-burger-menu {
+    display: none;
+  }
+}
+
+.hum-burger-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 050px;
+  height: 50px;
+  padding: 0px;
+}
+
+.humburger-close-button {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
